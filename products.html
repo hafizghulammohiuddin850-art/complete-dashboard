@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="layout">
+
+        <aside class="sidebar">
+            <h2 class="logo">AdminPro</h2>
+            <ul class="menu">
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="users.html">Users</a></li>
+                <li><a href="orders.html">Orders</a></li>
+                <li class="active"><a href="products.html">Products</a></li>
+                <li><a href="reports.html">Reports</a></li>
+                <li><a href="settings.html">Settings</a></li>
+            </ul>
+        </aside>
+
+        <main class="main">
+            <header class="topbar">
+                <input type="text" class="search" placeholder="Search...">
+                <div class="profile">
+                    <span class="notif">🔔</span>
+                    <span class="username">Admin</span>
+                </div>
+            </header>
+
+            <section class="page-header">
+                <h1>Products</h1>
+                <button class="btn btn-primary">+ Add Product</button>
+            </section>
+
+            <section class="product-grid">
+
+                <div class="product-card">
+                    <div class="product-img">📱</div>
+                    <h4>Smartphone X</h4>
+                    <p class="price">$499</p>
+                    <p class="stock">Stock: 25</p>
+                    <div class="product-actions">
+                        <button class="btn btn-edit">Edit</button>
+                        <button class="btn btn-delete">Delete</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">💻</div>
+                    <h4>Laptop Pro</h4>
+                    <p class="price">$999</p>
+                    <p class="stock">Stock: 10</p>
+                    <div class="product-actions">
+                        <button class="btn btn-edit">Edit</button>
+                        <button class="btn btn-delete">Delete</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">🎧</div>
+                    <h4>Headphones</h4>
+                    <p class="price">$79</p>
+                    <p class="stock">Stock: 60</p>
+                    <div class="product-actions">
+                        <button class="btn btn-edit">Edit</button>
+                        <button class="btn btn-delete">Delete</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">⌚</div>
+                    <h4>Smart Watch</h4>
+                    <p class="price">$149</p>
+                    <p class="stock">Stock: 0</p>
+                    <div class="product-actions">
+                        <button class="btn btn-edit">Edit</button>
+                        <button class="btn btn-delete">Delete</button>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+    </div>
+</body>
+
+</html>

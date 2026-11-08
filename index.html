@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2 class="logo">AdminPro</h2>
+            <ul class="menu">
+                <li class="active"><a href="index.html">Dashboard</a></li>
+                <li><a href="users.html">Users</a></li>
+                <li><a href="orders.html">Orders</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="reports.html">Reports</a></li>
+                <li><a href="settings.html">Settings</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main">
+
+            <!-- Top Navbar -->
+            <header class="topbar">
+                <input type="text" class="search" placeholder="Search...">
+                <div class="profile">
+                    <span class="notif">🔔</span>
+                    <span class="username">Admin</span>
+                </div>
+            </header>
+
+            <!-- Stats Cards -->
+            <section class="stats">
+                <div class="card">
+                    <h4>Total Users</h4>
+                    <p class="number">1,245</p>
+                </div>
+                <div class="card">
+                    <h4>Total Sales</h4>
+                    <p class="number">$8,540</p>
+                </div>
+                <div class="card">
+                    <h4>Orders</h4>
+                    <p class="number">320</p>
+                </div>
+                <div class="card">
+                    <h4>Revenue</h4>
+                    <p class="number">$12,300</p>
+                </div>
+            </section>
+
+            <!-- Recent Orders Table -->
+            <section class="table-box">
+                <h3>Recent Orders</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Order ID</th>
+                            <th>Customer</th>
+                            <th>Amount</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>#1001</td>
+                            <td>Ali Khan</td>
+                            <td>$120</td>
+                            <td><span class="badge done">Completed</span></td>
+                        </tr>
+                        <tr>
+                            <td>#1002</td>
+                            <td>Sara Ahmed</td>
+                            <td>$85</td>
+                            <td><span class="badge pending">Pending</span></td>
+                        </tr>
+                        <tr>
+                            <td>#1003</td>
+                            <td>Usman Raza</td>
+                            <td>$240</td>
+                            <td><span class="badge cancel">Cancelled</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>
